@@ -3,29 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50512FF924F15A0B00BCC8AA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50512FF824F15A0B00BCC8AA /* GoogleService-Info.plist */; };
+		50512FFE24F189C000BCC8AA /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50512FFD24F189C000BCC8AA /* Tracker.swift */; };
+		5051300024F18C0200BCC8AA /* TrackerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50512FFF24F18C0200BCC8AA /* TrackerListViewModel.swift */; };
+		5051300324F18C5400BCC8AA /* TrackerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5051300224F18C5400BCC8AA /* TrackerRepository.swift */; };
+		5051300524F18CA400BCC8AA /* TrackerCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5051300424F18CA400BCC8AA /* TrackerCellViewModel.swift */; };
+		5051300724F18CD200BCC8AA /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5051300624F18CD200BCC8AA /* SettingsViewModel.swift */; };
+		5051300924F18D1000BCC8AA /* TrackerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5051300824F18D1000BCC8AA /* TrackerListView.swift */; };
+		5051300B24F18D2C00BCC8AA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5051300A24F18D2C00BCC8AA /* SettingsView.swift */; };
+		50709B3A24F1C22D0008E888 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50709B3924F1C22D0008E888 /* AuthenticationService.swift */; };
+		50709B4224F1ECB60008E888 /* ReviewSurveyMVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50709B4124F1ECB60008E888 /* ReviewSurveyMVVM.swift */; };
+		50709B4624F2E5880008E888 /* SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50709B4524F2E5880008E888 /* SurveyView.swift */; };
+		50709B4824F367220008E888 /* AppDelegate+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50709B4724F367220008E888 /* AppDelegate+Injection.swift */; };
+		50709B4A24F3677B0008E888 /* EnvironmentKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50709B4924F3677B0008E888 /* EnvironmentKeys.swift */; };
+		50709B4C24F367940008E888 /* Publisher+Assign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50709B4B24F367940008E888 /* Publisher+Assign.swift */; };
+		5093A22724F4070B006B6296 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093A22624F4070B006B6296 /* SignInView.swift */; };
+		5093A22D24F57588006B6296 /* PresentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093A22C24F57588006B6296 /* PresentViewModel.swift */; };
 		50C4686924F0DD170066ECA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C4686824F0DD170066ECA7 /* AppDelegate.swift */; };
 		50C4686B24F0DD170066ECA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C4686A24F0DD170066ECA7 /* SceneDelegate.swift */; };
 		50C4686E24F0DD170066ECA7 /* Swymptom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50C4686C24F0DD170066ECA7 /* Swymptom.xcdatamodeld */; };
-		50C4687024F0DD170066ECA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C4686F24F0DD170066ECA7 /* ContentView.swift */; };
 		50C4687224F0DD190066ECA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C4687124F0DD190066ECA7 /* Assets.xcassets */; };
 		50C4687524F0DD190066ECA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C4687424F0DD190066ECA7 /* Preview Assets.xcassets */; };
 		50C4687824F0DD190066ECA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C4687624F0DD190066ECA7 /* LaunchScreen.storyboard */; };
+		E7D4470EEF7A0DD56FDB29D7 /* Pods_Swymptom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA385832DA1D29648C159E6D /* Pods_Swymptom.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26FF6C7CF358ECD3C0453197 /* Pods-Swymptom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swymptom.release.xcconfig"; path = "Target Support Files/Pods-Swymptom/Pods-Swymptom.release.xcconfig"; sourceTree = "<group>"; };
+		50512FF824F15A0B00BCC8AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		50512FFD24F189C000BCC8AA /* Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
+		50512FFF24F18C0200BCC8AA /* TrackerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerListViewModel.swift; sourceTree = "<group>"; };
+		5051300224F18C5400BCC8AA /* TrackerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerRepository.swift; sourceTree = "<group>"; };
+		5051300424F18CA400BCC8AA /* TrackerCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerCellViewModel.swift; sourceTree = "<group>"; };
+		5051300624F18CD200BCC8AA /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		5051300824F18D1000BCC8AA /* TrackerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerListView.swift; sourceTree = "<group>"; };
+		5051300A24F18D2C00BCC8AA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		50709B3924F1C22D0008E888 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		50709B4124F1ECB60008E888 /* ReviewSurveyMVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewSurveyMVVM.swift; sourceTree = "<group>"; };
+		50709B4524F2E5880008E888 /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
+		50709B4724F367220008E888 /* AppDelegate+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Injection.swift"; sourceTree = "<group>"; };
+		50709B4924F3677B0008E888 /* EnvironmentKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentKeys.swift; sourceTree = "<group>"; };
+		50709B4B24F367940008E888 /* Publisher+Assign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Assign.swift"; sourceTree = "<group>"; };
+		5093A22624F4070B006B6296 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		5093A22C24F57588006B6296 /* PresentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentViewModel.swift; sourceTree = "<group>"; };
 		50C4686524F0DD170066ECA7 /* Swymptom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swymptom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C4686824F0DD170066ECA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50C4686A24F0DD170066ECA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		50C4686D24F0DD170066ECA7 /* Swymptom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Swymptom.xcdatamodel; sourceTree = "<group>"; };
-		50C4686F24F0DD170066ECA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		50C4687124F0DD190066ECA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50C4687424F0DD190066ECA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		50C4687724F0DD190066ECA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50C4687924F0DD190066ECA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA385832DA1D29648C159E6D /* Pods_Swymptom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swymptom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D9EA105F6954C6A69CB0FB /* Pods-Swymptom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swymptom.debug.xcconfig"; path = "Target Support Files/Pods-Swymptom/Pods-Swymptom.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +67,94 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7D4470EEF7A0DD56FDB29D7 /* Pods_Swymptom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34E7BB7B240944A5FCF05040 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7D9EA105F6954C6A69CB0FB /* Pods-Swymptom.debug.xcconfig */,
+				26FF6C7CF358ECD3C0453197 /* Pods-Swymptom.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		50512FFA24F1853100BCC8AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5051300824F18D1000BCC8AA /* TrackerListView.swift */,
+				50709B4524F2E5880008E888 /* SurveyView.swift */,
+				5051300A24F18D2C00BCC8AA /* SettingsView.swift */,
+				5093A22624F4070B006B6296 /* SignInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		50512FFB24F1896400BCC8AA /* ModelViews */ = {
+			isa = PBXGroup;
+			children = (
+				5093A22C24F57588006B6296 /* PresentViewModel.swift */,
+				5051300424F18CA400BCC8AA /* TrackerCellViewModel.swift */,
+				50512FFF24F18C0200BCC8AA /* TrackerListViewModel.swift */,
+				5051300624F18CD200BCC8AA /* SettingsViewModel.swift */,
+			);
+			path = ModelViews;
+			sourceTree = "<group>";
+		};
+		50512FFC24F1897900BCC8AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				50512FFD24F189C000BCC8AA /* Tracker.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5051300124F18C3700BCC8AA /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				5051300224F18C5400BCC8AA /* TrackerRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		50709B3824F1C2080008E888 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				50709B3924F1C22D0008E888 /* AuthenticationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		50709B3B24F1C3460008E888 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				50C4686824F0DD170066ECA7 /* AppDelegate.swift */,
+				50C4686A24F0DD170066ECA7 /* SceneDelegate.swift */,
+				50709B4724F367220008E888 /* AppDelegate+Injection.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		50709B3C24F1C3CB0008E888 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				50709B4924F3677B0008E888 /* EnvironmentKeys.swift */,
+				50709B4B24F367940008E888 /* Publisher+Assign.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		50C4685C24F0DD170066ECA7 = {
 			isa = PBXGroup;
 			children = (
 				50C4686724F0DD170066ECA7 /* Swymptom */,
 				50C4686624F0DD170066ECA7 /* Products */,
+				34E7BB7B240944A5FCF05040 /* Pods */,
+				E9CA7AD008D4D66D9B33CC9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +169,19 @@
 		50C4686724F0DD170066ECA7 /* Swymptom */ = {
 			isa = PBXGroup;
 			children = (
-				50C4686824F0DD170066ECA7 /* AppDelegate.swift */,
-				50C4686A24F0DD170066ECA7 /* SceneDelegate.swift */,
-				50C4686F24F0DD170066ECA7 /* ContentView.swift */,
 				50C4687124F0DD190066ECA7 /* Assets.xcassets */,
+				50709B3C24F1C3CB0008E888 /* Utilities */,
+				50709B3B24F1C3460008E888 /* App */,
+				50709B3824F1C2080008E888 /* Services */,
+				5051300124F18C3700BCC8AA /* Repositories */,
+				50512FFC24F1897900BCC8AA /* Models */,
+				50512FFB24F1896400BCC8AA /* ModelViews */,
+				50512FFA24F1853100BCC8AA /* Views */,
+				50709B4124F1ECB60008E888 /* ReviewSurveyMVVM.swift */,
+				50C4686C24F0DD170066ECA7 /* Swymptom.xcdatamodeld */,
 				50C4687624F0DD190066ECA7 /* LaunchScreen.storyboard */,
 				50C4687924F0DD190066ECA7 /* Info.plist */,
-				50C4686C24F0DD170066ECA7 /* Swymptom.xcdatamodeld */,
+				50512FF824F15A0B00BCC8AA /* GoogleService-Info.plist */,
 				50C4687324F0DD190066ECA7 /* Preview Content */,
 			);
 			path = Swymptom;
@@ -78,6 +195,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E9CA7AD008D4D66D9B33CC9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA385832DA1D29648C159E6D /* Pods_Swymptom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50C4687C24F0DD190066ECA7 /* Build configuration list for PBXNativeTarget "Swymptom" */;
 			buildPhases = (
+				B48ADFB9C7A3A1885435B49B /* [CP] Check Pods Manifest.lock */,
 				50C4686124F0DD170066ECA7 /* Sources */,
 				50C4686224F0DD170066ECA7 /* Frameworks */,
 				50C4686324F0DD170066ECA7 /* Resources */,
+				4B109B52564D42F117A7EBF8 /* [CP] Embed Pods Frameworks */,
+				7433490448BC1C0F9D4DD1A1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50C4687824F0DD190066ECA7 /* LaunchScreen.storyboard in Resources */,
+				50512FF924F15A0B00BCC8AA /* GoogleService-Info.plist in Resources */,
 				50C4687524F0DD190066ECA7 /* Preview Assets.xcassets in Resources */,
 				50C4687224F0DD190066ECA7 /* Assets.xcassets in Resources */,
 			);
@@ -144,15 +273,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B109B52564D42F117A7EBF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swymptom/Pods-Swymptom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swymptom/Pods-Swymptom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swymptom/Pods-Swymptom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7433490448BC1C0F9D4DD1A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swymptom/Pods-Swymptom-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swymptom/Pods-Swymptom-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swymptom/Pods-Swymptom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B48ADFB9C7A3A1885435B49B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swymptom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		50C4686124F0DD170066ECA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50709B4A24F3677B0008E888 /* EnvironmentKeys.swift in Sources */,
 				50C4686924F0DD170066ECA7 /* AppDelegate.swift in Sources */,
 				50C4686E24F0DD170066ECA7 /* Swymptom.xcdatamodeld in Sources */,
-				50C4687024F0DD170066ECA7 /* ContentView.swift in Sources */,
+				50709B4624F2E5880008E888 /* SurveyView.swift in Sources */,
+				50709B3A24F1C22D0008E888 /* AuthenticationService.swift in Sources */,
+				5051300924F18D1000BCC8AA /* TrackerListView.swift in Sources */,
+				5093A22724F4070B006B6296 /* SignInView.swift in Sources */,
+				50709B4224F1ECB60008E888 /* ReviewSurveyMVVM.swift in Sources */,
+				5093A22D24F57588006B6296 /* PresentViewModel.swift in Sources */,
+				5051300024F18C0200BCC8AA /* TrackerListViewModel.swift in Sources */,
+				50512FFE24F189C000BCC8AA /* Tracker.swift in Sources */,
+				5051300524F18CA400BCC8AA /* TrackerCellViewModel.swift in Sources */,
 				50C4686B24F0DD170066ECA7 /* SceneDelegate.swift in Sources */,
+				50709B4824F367220008E888 /* AppDelegate+Injection.swift in Sources */,
+				5051300324F18C5400BCC8AA /* TrackerRepository.swift in Sources */,
+				5051300724F18CD200BCC8AA /* SettingsViewModel.swift in Sources */,
+				5051300B24F18D2C00BCC8AA /* SettingsView.swift in Sources */,
+				50709B4C24F367940008E888 /* Publisher+Assign.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +488,7 @@
 		};
 		50C4687D24F0DD190066ECA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D9EA105F6954C6A69CB0FB /* Pods-Swymptom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -305,6 +508,7 @@
 		};
 		50C4687E24F0DD190066ECA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26FF6C7CF358ECD3C0453197 /* Pods-Swymptom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
